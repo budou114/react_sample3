@@ -5,8 +5,6 @@ export const UrlParameter = () => {
   const { search } = useLocation();
   const query = new URLSearchParams(search);
 
-  console.log(query);
-
   return (
     <div>
       <h1>UrlParameterページです</h1>
